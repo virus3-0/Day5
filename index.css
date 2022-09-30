@@ -1,0 +1,14 @@
+#parent {
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    justify-content:flex-start ;
+}
+#parent>div{
+    background: #ffffff;
+}
+#child1 {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 100px ;
+  }
